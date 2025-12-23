@@ -165,38 +165,137 @@ Combining quantitative funnel metrics with qualitative sentiment insights enable
 
 ---
 
-<h2 align="center">Insights Deep-Dive (Quantified)</h2>
+<h2 align="center">Insights Deep-Dive</h2>
 <table align="center">
   <tr>
     <td width="1440">
 
-<h3>1. Conversion Performance</h3>
+<h3>1️⃣ Conversion Funnel Performance & Seasonality</h3>
 <ul>
-  <li>Overall conversion rate averaged <strong>9%</strong>.</li>
-  <li>Highest conversion recorded in <strong>January (18.5%)</strong>, lowest in <strong>May (4.3%)</strong>.</li>
-  <li>Ski Boots achieved an exceptional <strong>150% product-level conversion</strong> during peak season.</li>
+  <li>
+    Conversion rates showed <strong>high volatility across months</strong>, ranging from a low of 
+    <strong>4.3% in May</strong> to a peak of <strong>18.5% in January</strong>, indicating strong seasonality effects.
+  </li>
+  <li>
+    A notable rebound was observed in <strong>December (10.2%)</strong> after a significant dip in October (5.0%), 
+    suggesting late-year promotional or demand-driven recovery.
+  </li>
+  <li>
+    Specific products such as <strong>Ski Boots</strong> recorded exceptionally high performance 
+    (up to <strong>150% product-level conversion</strong>), highlighting opportunities for 
+    <strong>product-focused seasonal campaigns</strong>.
+  </li>
 </ul>
 
-<h3>2. Customer Engagement</h3>
+<h3>2️⃣ Product-Level Conversion Concentration</h3>
 <ul>
-  <li>Total views reached <strong>1,096,704</strong>, but declined after July.</li>
-  <li>Despite low absolute clicks, CTR remained strong at <strong>15.37%</strong>.</li>
-  <li>Blog content consistently drove the highest views compared to social and video formats.</li>
+  <li>
+    Conversion success was <strong>not evenly distributed</strong> across products. 
+    A small subset (e.g., Ski Boots, Kayaks, Baseball Gloves) consistently outperformed others.
+  </li>
+  <li>
+    During low-performing months (e.g., May), <strong>no single product stood out</strong>, 
+    indicating the absence of strong promotional drivers or targeted offers.
+  </li>
+  <li>
+    This imbalance suggests that <strong>conversion growth is primarily driven by product strategy</strong>, 
+    not just traffic volume.
+  </li>
 </ul>
 
-<h3>3. Customer Feedback & Sentiment</h3>
+<h3>3️⃣ Customer Engagement Decline Despite Healthy CTR</h3>
 <ul>
-  <li>Average rating stabilized at <strong>3.66</strong>.</li>
-  <li>Sentiment analysis revealed <strong>275 positive</strong>, <strong>82 negative</strong>, and mixed sentiments highlighting improvement opportunities.</li>
+  <li>
+    Overall engagement volume declined steadily after July, with <strong>views dropping significantly 
+    in the second half of the year</strong>.
+  </li>
+  <li>
+    Despite low absolute clicks and likes, the <strong>Click-Through Rate (CTR) remained strong at 15.37%</strong>,
+    indicating that users who do engage are still responding effectively to content.
+  </li>
+  <li>
+    This points to a <strong>reach problem rather than a content relevance problem</strong>.
+  </li>
 </ul>
 
-<h3>4. Opportunity Areas</h3>
+<h3>4️⃣ Content-Type Performance Insights</h3>
 <ul>
-  <li>Mixed sentiment reviews represent a conversion opportunity by resolving specific pain points.</li>
-  <li>Low-performing months indicate need for seasonal campaign optimization.</li>
+  <li>
+    <strong>Blog content</strong> consistently generated the highest views, particularly in 
+    <strong>April and July</strong>, making it the strongest awareness driver.
+  </li>
+  <li>
+    <strong>Social Media and Video content</strong> showed stable but lower engagement, 
+    suggesting potential underutilization of interactive formats.
+  </li>
+  <li>
+    The data indicates an opportunity to <strong>blend high-reach blog content with 
+    stronger calls-to-action and richer formats</strong>.
+  </li>
+</ul>
+
+<h3>5️⃣ Customer Feedback & Rating Distribution</h3>
+<ul>
+  <li>
+    Customer ratings remained stable across the year, averaging approximately <strong>3.7</strong>,
+    which is below the desired benchmark of <strong>4.0</strong>.
+  </li>
+  <li>
+    Rating distribution skewed positive, with <strong>275 reviews rated 4–5 stars</strong>, 
+    compared to <strong>83 reviews at 1–2 stars</strong>.
+  </li>
+  <li>
+    Products rated below <strong>3.5</strong> represent a critical improvement segment 
+    directly impacting brand perception and conversion.
+  </li>
+</ul>
+
+<h3>6️⃣ Sentiment Intelligence from NLP Analysis</h3>
+<ul>
+  <li>
+    NLP-based sentiment analysis revealed <strong>275 positive sentiments</strong>, 
+    confirming a generally satisfied customer base.
+  </li>
+  <li>
+    <strong>82 negative sentiments</strong> and a noticeable share of 
+    <strong>mixed-positive and mixed-negative reviews</strong> highlight unresolved customer pain points.
+  </li>
+  <li>
+    Mixed sentiment reviews represent a <strong>conversion opportunity</strong>, as these customers are 
+    closer to positive advocacy than complete dissatisfaction.
+  </li>
 </ul>
 
   </td>
+  </tr>
+</table>
+
+---
+
+<h2 align="center">Key Learnings</h2>
+
+<table align="center">
+  <tr>
+    <td width="1440">
+<ul>
+  <li>
+    <strong>Business Insight:</strong> Conversion performance is heavily influenced by 
+    <strong>seasonality and product mix</strong>, making blanket marketing strategies inefficient.
+  </li>
+  <li>
+    <strong>Analytics Insight:</strong> Combining funnel metrics with sentiment analysis provides 
+    a <strong>360° view of both behavior and perception</strong>, which isolated metrics fail to capture.
+  </li>
+  <li>
+    <strong>Customer Insight:</strong> Stable average ratings can mask dissatisfaction; 
+    <strong>sentiment analysis reveals hidden friction</strong> not visible through ratings alone.
+  </li>
+  <li>
+    <strong>Technical Learning:</strong> Integrating SQL-based data modeling with Python NLP and 
+    Power BI dashboards enables <strong>end-to-end analytical storytelling</strong>.
+  </li>
+</ul>
+    </td>
   </tr>
 </table>
 
@@ -209,14 +308,50 @@ Combining quantitative funnel metrics with qualitative sentiment insights enable
 
 <h3>📌 Conversion Optimization</h3>
 <ul>
-  <li>Prioritize high-performing products (Ski Boots, Kayaks, Baseball Gloves) during peak months.</li>
-  <li>Introduce targeted promotions during low-conversion months such as May.</li>
+  <li>
+    Prioritize high-performing products (e.g., Ski Boots, Kayaks) during 
+    historically strong months such as <strong>January and September</strong> to maximize ROI.
+  </li>
+  <li>
+    Introduce targeted promotions or bundled offers during low-performing months 
+    like <strong>May</strong> to stabilize conversion rates.
+  </li>
 </ul>
 
-<h3>📌 Engagement & Experience</h3>
+<h3>📌 Customer Engagement Revitalization</h3>
 <ul>
-  <li>Revamp content strategy with interactive formats and stronger CTAs.</li>
-  <li>Address mixed and negative reviews through feedback loops and follow-ups.</li>
+  <li>
+    Expand reach by repurposing high-performing blog content into 
+    <strong>short-form social and video formats</strong>.
+  </li>
+  <li>
+    Improve interaction rates by optimizing <strong>call-to-action placement</strong>, 
+    especially during the second half of the year when engagement declines.
+  </li>
+</ul>
+
+<h3>📌 Customer Experience & Feedback Improvement</h3>
+<ul>
+  <li>
+    Implement a structured feedback loop to analyze <strong>mixed sentiment reviews</strong> 
+    and resolve recurring issues proactively.
+  </li>
+  <li>
+    Follow up with dissatisfied customers post-resolution to encourage 
+    <strong>re-rating</strong>, aiming to move the average rating closer to <strong>4.0+</strong>.
+  </li>
+</ul>
+
+<h3>📌 Data-Driven Decision Enablement</h3>
+<ul>
+  <li>
+    Integrate sentiment and rating signals into marketing and product dashboards 
+    to support <strong>real-time decision-making</strong>.
+  </li>
+  <li>
+    Use these insights to guide content strategy, product prioritization, 
+    and customer retention initiatives.
+  </li>
 </ul>
 
   </td>
@@ -230,9 +365,22 @@ Combining quantitative funnel metrics with qualitative sentiment insights enable
   <tr>
     <td width="1440">
 <ul>
-  <li>Funnel metrics alone are insufficient without sentiment context.</li>
-  <li>Combining ratings with NLP reveals hidden dissatisfaction signals.</li>
-  <li>Seasonality plays a major role in conversion performance.</li>
+  <li>
+    <strong>Business Insight:</strong> Conversion performance is heavily influenced by 
+    <strong>seasonality and product mix</strong>, making blanket marketing strategies inefficient.
+  </li>
+  <li>
+    <strong>Analytics Insight:</strong> Combining funnel metrics with sentiment analysis provides 
+    a <strong>360° view of both behavior and perception</strong>, which isolated metrics fail to capture.
+  </li>
+  <li>
+    <strong>Customer Insight:</strong> Stable average ratings can mask dissatisfaction; 
+    <strong>sentiment analysis reveals hidden friction</strong> not visible through ratings alone.
+  </li>
+  <li>
+    <strong>Technical Learning:</strong> Integrating SQL-based data modeling with Python NLP and 
+    Power BI dashboards enables <strong>end-to-end analytical storytelling</strong>.
+  </li>
 </ul>
     </td>
   </tr>
