@@ -11,7 +11,7 @@
 <table align="center">
   <tr>
     <td width="1440">
-<h2 align="center">Client Background (Business Scenario)</h2>
+<h2 align="center">Client Background</h2>
 
 <p>
 ShopEasy is a mid-sized e-commerce retail company selling sports and fitness products across multiple categories such as fitness gear, sports accessories, and outdoor equipment. The company relies heavily on digital marketing channels and customer reviews to drive conversions.
