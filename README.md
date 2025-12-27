@@ -430,7 +430,7 @@ Combining quantitative funnel metrics with qualitative sentiment insights enable
       </p>
 
   <p>
-        📧 <strong>Email:</strong> kaifsdkpro@gmail.com
+        📧 <strong>Email:</strong> kaif.sdk.uae@gmail.com
       </p>
 
   <p>
